@@ -1,0 +1,18 @@
+h1, h2 {
+    color: rgb(104, 142, 247);
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+body {
+    font-family: Helvetica;
+    text-align: justify;
+    font-size: 18px;
+}
+
