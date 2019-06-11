@@ -10,6 +10,12 @@ body {
     font-size: 18px;
 }
 
+.container {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 h1, h2 {
     color: rgb(104, 142, 247);
 }
@@ -31,4 +37,15 @@ h2 {
 
 #second-text{
     font-size: 20px;
+}
+.blog-post {
+    background-color: bisque;
+    width: 75%;
+}
+.other-posts {
+    background-color: rgb(231, 172, 100);
+    width: 25%;
+}
+.author-box {
+    background-color: rgb(233, 149, 201);
 }
