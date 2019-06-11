@@ -53,5 +53,9 @@ h2 {
     float: left;
 }
 .author-box {
-    background-color: rgb(233, 149, 201);
+    padding-top: 20px;
+    border-top: 1px solid grey;
+}
+.author-text{
+    font-size: 20px;
 }
