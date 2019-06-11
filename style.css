@@ -18,8 +18,7 @@ body {
 
 .container {
     width: 1140px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px auto 0 auto;
 }
 
 h1, h2 {
@@ -45,12 +44,11 @@ h2 {
     font-size: 20px;
 }
 .blog-post {
-    background-color: bisque;
     width: 75%;
     float: left;
+    padding-right: 30px;
 }
 .other-posts {
-    background-color: rgb(231, 172, 100);
     width: 25%;
     float: left;
 }
