@@ -5,20 +5,14 @@
 }
 
 .clearfix:after {
-    content: '';
+    content: "";
     display: table;
     clear: both;
 }
 
 body {
     font-family: Helvetica;
-    text-align: justify;
     font-size: 18px;
-}
-
-.container {
-    width: 1140px;
-    margin: 20px auto 0 auto;
 }
 
 h1, h2 {
@@ -40,18 +34,32 @@ h2 {
     margin-bottom: 20px;
 }
 
-#second-text{
-    font-size: 20px;
+.author-text{
+    font-size: 22px;
 }
+
+.container {
+    width: 1140px;
+    margin: 20px auto 0 auto;
+}
+
 .blog-post {
     width: 75%;
     float: left;
     padding-right: 30px;
+    margin-bottom: 20px;
 }
+
+.second-text{
+    font-size: 20px;
+}
+
 .other-posts {
     width: 25%;
     float: left;
 }
+
 .author-box {
-    background-color: rgb(233, 149, 201);
+    padding-top: 20px;
+    border-top: 1px solid grey;
 }
